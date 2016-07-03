@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio - Sandra Ptaszek</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway|Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="static/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/grid.css">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link rel="stylesheet" type="text/css" href="static/mobile.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script/jquery.js"></script>
+</head>
+<body>
+	<header>
+		<section class="row nav">
+			<div class="col-3 col-ms-5 col-mm-5 col-ml-5 col-t-5">
+				<h1>Sandra Ptaszek</h1>
+			</div>
+			<nav class="col-9 col-ms-7 col-mm-7 col-ml-7 col-t-7">
+				<input type="checkbox" class="checkbox" id="checkbox" />
+				<label class="fa fa-bars hamburger-menu" aria-hidden="true" for="checkbox"></label>
+				<ul>
+					<li>
+						<a href="#about-me">O mnie</a>
+					</li>
+					<li>
+						<a href="#interests">Zainteresowania</a>
+					</li>
+					<li>
+						<a href="#skills">Umiejętności</a>
+					</li>
+					<li>
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact">Kontakt</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section class="row">
+			<div class="col-12 bcg-1 flexbox">
+				<h2>Junior frontend developer</h2>
+				<blockquote>
+					<cite>
+						"The key to being a successful programmer is to learn how to learn."
+					</cite>
+					<footer>
+						- Shannon Burns
+					</footer>
+				</blockquote>
+			</div>
+		</section>
+	</header>
+	<main>
+		<section class="row bcg-2">
+			<div class="col-12 flexbox">
+				<h3 id="about-me">O MNIE</h3>
+			</div>
+		</section>
+		<section class="row bcg-2">
+			<div class="col-2 flexbox col-ms-12 col-mm-12 col-ml-12 col-t-12">
+				<img class="photo" src="static/images/me.jpg" alt="Sandra Ptaszek">
+				<!-- START MODAL CV -->
+				<button id="myBtn">Zobacz moje CV</button>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+						<span class="close">x</span>
+						<div class="modal-container">
+							<div class="row">
+								<div class="col-12 flexbox col-ms-12 col-mm-12 col-ml-12 col-t-12">
+								<h5>Curriculum Vitae</h5>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+									<h6>Doświadczenie:</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>07.2015</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10">
+									<ul>
+										<p>Staż w ramach projektu „Wakacyjny Staż 2015” w firmie Gdański Zarząd Nieruchomości Komunalnych Samorządowy Zakład Budżetowy w dziale Eksploatacji. Zakres obowiązków:</p>
+										<li>Administrowanie zasobami komunalnymi</li>
+										<li>Przygotowywanie i koordynacja obiegu korespondencji</li>
+										<li>Archiwizacja dokumentów</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>08.2014-09.2014</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10">
+									<ul>
+										<p>Staż w programie praktyk letnich „Owocne Wakacje” w firmie Jeronimo Martins Polska S.A. w dziale Ekspansji, Gdańsk. Zakres obowiązków:</p>
+										<li>Ocena obszaru handlowego nieruchomości</li>
+										<li>Analiza potencjału miast na nowe nieruchomości</li>
+										<li>Badanie oddziaływania nieruchomości komercyjnej</li>
+									</ul>									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>09.2013</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10">
+									<ul>
+										<p>Staż w programie praktyk letnich „Owocne Wakacje” w firmie Jeronimo Martins Polska S.A. w dziale Ekspansji, Gdańsk. Zakres obowiązków:</p>
+										<li>Sporządzanie cotygodniowych raportów ze stanu zaawansowania inwestycji</li>
+										<li>Analiza konkurencji nieruchomości handlowych</li>
+										<li>Aktualizacja danych o zasobach nieruchomości</li>
+									</ul>									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>07.2012</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10">
+									<ul>
+										<p>Staż w programie praktyk letnich „Owocne Wakacje” w firmie Jeronimo Martins Polska S.A. w dziale Ekspansji, Grudziądz. Zakres obowiązków:</p>
+										<li>Analiza kanibalizmu nieruchomości handlowych firmy</li>
+										<li>Przegląd ofert sprzedaży nieruchomości</li>
+										<li>Aktualizowanie i redagowanie strategii działania firmy w poszczególnych miastach</li>
+										<li>Administrowanie i archiwizacja dokumentów</li>									
+									</ul>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+									<h6>Wykształcenie:</h6>
+								</div>
+								<div class="row">
+									<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2014-2016</p></div>
+									<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+										<p>Uniwersytet Gdański, Wydział Zarządzania, kierunek: Zarządzanie, specjalność: Inwestycje i nieruchomości, II stopnia, tryb: dzienny</p>
+										<p>Temat pracy magisterskiej:</p>
+										<p class="italic">Koncepcja zarządzania nieruchomościami komunalnymi gminy</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2011-2014</p></div>
+									<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+										<p>Uniwersytet Gdański, Wydział Zarządzania, kierunek: Zarządzanie, specjalność: Inwestycje i nieruchomości, I stopnia, tryb: dzienny</p>
+										<p>Temat pracy licencjackiej:</p>
+										<p class="italic">Użytkowanie wieczyste jako źródło dochodu z gospodarowania nieruchomościami komunalnymi na przykładzie miasta Gdańsk</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2008-2011</p></div>
+									<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+										<p>IV Liceum Ogólnokształcące im. Komisji Edukacji Narodowej w Elblągu, profil: matematyczno-informatyczny.</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+									<h6>Osiągnięcia:</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2015-2016</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+									<p>Stypendium Rektora za najlepsze wyniki w nauce za rok 2014/2015</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2014-2015</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+									<p>Stypendium Rektora za najlepsze wyniki w nauce za rok 2013/2014</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2013-2014</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+									<p>Stypendium Rektora za najlepsze wyniki w nauce za rok 2012/2013</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2 col-ms-2 col-mm-2 col-ml-2 col-t-2"><p>2012-2013</p></div>
+								<div class="col-10 col-ms-10 col-mm-10 col-ml-10 col-t-10 par">
+									<p>Stypendium Rektora za najlepsze wyniki w nauce za rok 2011/2012</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END MODAL CV-->
+			</div>
+			<div class="col-5 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+				<article>
+					<p>
+						Cześć! Nazywam się Sandra Ptaszek i mam 24 lata. Obecnie mieszkam w centrum Gdyni.
+					</p>
+					<p>
+						W tym roku zakończyłam studia magisterskie o specjalizacji Inwestycje i nieruchomości na Uniwersytecie Gdańskim. Moim największym osiągnięciem na studiach jest wyróżnienie jako najlepszy absolwent UG wydziału Zarządzania o kierunku Zarządzanie w roku akademickim 2015/2016.
+					</p>
+					<p>
+						Postanowiłam zacząć na poważnie swoją przygodę z tworzeniem stron internetowych, gdyż od najmłodszych lat probowałam sama coś tworzyć. Pod koniec studiów zaczęłam na poważnie zastanawiać się, co tak na prawdę lubię robić i co sprawia mi przyjemność. Postanowiłam więc podjąć się profesjonalnego kursu w Akademii Programowania Coderspro. Ponadto podjełam się również policealnych studów "Programowanie aplikacji internetowych i mobilnych", które rozpocznę w październiku 2016 roku.
+					</p>
+				</article>
+			</div>
+			<div class="col-5 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+				<article>
+					<p>
+						Fascynuje mnie frontend development, ponieważ posiadam pewien ułamek duszy artysty. Zawsze lubiłam coś tworzyć sama. Począwszy od tworzenia własnej biżuterii, po rysowanie, modelowanie oraz gotowanie. Oprócz tego interesuje mnie również grafika komputerowa, której również zamierzam w przyszłości się nauczyć.
+					</p>
+					<p>
+						Jestem osobą ambitną, która uparcie dąży do celu. Jestem skrupulatna, sumiennie wykonuję swoje obowiązki i nie odkładam spraw na później, dopóki ich nie zakończę. Moją wadą jest to, że jestem perfekcjonistą. Przejawia się to tym, że chcę być w wielu kwestiach najlepsza, przez co poświęcam dużo energii na uzupełnienie swojej niewiedzy.
+					</p>
+					<p>
+						W przyszłości chciałabym być profesjonalnym i wykształconym frontend developerem w takim stopniu, abym mogła dzielić się swoją wiedzą z innymi i nauczać kolejne pokolenia tej fascynującej dziedziny programowania.
+					</p>
+				</article>
+			</div>
+		</section>
+		<section class="row bcg-3">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox">
+			<h3 id="interests">ZAINTERESOWANIA</h3>
+			</div>
+		</section>
+		<section class="row bcg-3">
+			<article class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox">
+				<ul class="interests-list">
+					<li><i class="fa fa-cutlery" aria-hidden="true"></i> W wolnych chwilach bardzo lubię gotować. Fascynuje mnie kuchnia indyjska i włoska. Bardzo lubię ostre smaki i niekonwencjonalne łączenie składników. Moją ulubioną przyprawą jest chili i curry.
+					 </li>
+					<li><i class="fa fa-paw" aria-hidden="true"></i> Jestem fanatykiem zwierząt. Kocham zwierzęta domowe, kiedy mam możliwość to pomagam potrzebującym pociechom. Posiadam czarną kotkę o imieniu Tosia, w której jestem zakochana bez pamięci.
+					</li>
+					<li><i class="fa fa-television" aria-hidden="true"></i> Lubię oglądać dobre seriale i filmy. Moimi ulubionymi gatunkami są thrillery, biografie, dramaty oraz trochę fantastyki. Czasem lubię też obejrzeć dobre filmy animowane.
+					</li>
+					<li><i class="fa fa-book" aria-hidden="true"></i> Kiedy mam chwilę czasu, to lubię przeczytać dobrą książkę. Nie mam ulubionych autorów, lecz moim ulubionym gatunkiem książek są kryminały.
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section class="row bcg-2">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox">
+				<h3 id="skills">UMIEJĘTNOŚCI</h3>
+			</div>
+		</section>
+		<section class="row bcg-2">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox padding">
+				<p>Języki, które do tej pory poznałam i których ciągle się uczę:</p>
+			</div>
+		</section>
+		<section class="row bcg-2">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12">
+				<div class="row">
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/html.png" alt="html5"></div>
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/CSS3.png" alt="CSS3"></div>
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/js.png" alt="Java Script"></div>
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/jquery.png" alt="jQuery"></div>
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/bootstrap.png" alt="Bootstrap"></div>
+					<div class="col-2 col-ms-6 col-mm-6 col-ml-6 col-t-4 flexbox"><img class="logo" src="static/images/sass.png" alt="Sass"></div>
+				</div>
+			</div>
+		</section>
+		<section class="row bcg-4">
+			<div class="row">
+				<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox">
+					<h3 id="portfolio">PORTFOLIO</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+				<div class="col-4 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox portfolio">
+					<a href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97100&w=200&h=100"></a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="bcg-2">
+		<section class="row">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox">
+				<h3 id="contact">KONTAKT</h3>
+			</div>
+		</section>
+		<section class="row">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox padding">
+				<p>Skontaktuj się ze mną pod adresem <span>ptaszek.sandra@gmail.com</span></p>
+			</div>
+		</section>
+		<section class="row">
+			<div class="col-12 col-ms-12 col-mm-12 col-ml-12 col-t-12 flexbox-row">
+				<a href="https://www.facebook.com/sandra.ptaszek" target="_blank"><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/u/0/105349160216766764899" target="_blank"><i class="fa fa-google-plus social" aria-hidden="true"></i></i></a>
+			</div>
+		</section>
+		<section class="row copyright flexbox">
+			<p>© Sandra Ptaszek. All Rights Reserved.</p>
+		</section>
+	</footer>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
