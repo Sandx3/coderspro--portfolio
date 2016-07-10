@@ -1,13 +1,6 @@
 $(document).ready(function() {
+	console.log('halo')
 	$('.logo').mouseenter(function(){
-		$(this).animate({
-			height: '+=10px'
+			$(this).effect('bounce', { times: 2 } , 1000);
 		});
-	});
-
-	$('.logo').mouseleave(function(){
-		$(this).animate({
-			height: '-=10px'
-		});
-	});
 });
