@@ -254,6 +254,12 @@ article {
 	padding: 20px;
 }
 
+.project {
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius: 10px;
+}
+
 .social {
 	padding: 10px;
 	font-size: 30px;
